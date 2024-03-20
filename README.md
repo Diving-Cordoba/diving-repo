@@ -1,42 +1,70 @@
-https://www.figma.com/file/fSVST3gDhFKgqlAVLvC5tD/diviving-website?type=design&node-id=24%3A3&mode=design&t=4BokVClyGnq9Auik-1
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Interactive survey tool API
+## Available Scripts
 
-This is the back end API for KITMs new survey creation and management tool.
+In the project directory, you can run:
 
-# Features
-- Give "Hello world" as response
+### `npm start`
 
-# Installation and running
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Installing
-1. **Clone repository:** `git clone https://github.com/Interactive-survey-tool/api-service`
-2. **Navigate into cloned repository:** `cd api-service`
-3. **Install dependencies:** `npm install`
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Running
-**Start API from its directory:** `npm start`
+### `npm test`
 
-# Authorization
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-#### Authentification
-Here will be described how to get an authenitfication token and an example of how to make a requests using an authenitfication token (WHEN IMPLEMENTED)
-#### Roles
-Here will be described what user types are there and how they are different from each other (WHEN IMPLEMENTED)
+### `npm run build`
 
-# OTHER ROUTES (example)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### GET: serverAddress:port/api/helloWorld
-**Description:** basic GET request that returns:
-```json
-{
-    "status": "success",
-    "results": 1,
-    "data": {
-        "message": "Hello World!"
-    }
-}
-```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-**Authorization required?** None
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
